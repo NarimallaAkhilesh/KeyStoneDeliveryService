@@ -46,7 +46,8 @@ public class SecurityConfig {
                 "http://localhost:3001",
                 "http://localhost:5173",
                 "http://localhost:4173",
-                "https://key-stone-delivery-service.vercel.app/"));
+                "https://key-stone-delivery-service.vercel.app/",
+                "https://*.vercel.app"));
 
         configuration.setAllowedMethods(List.of(
                 "GET",
